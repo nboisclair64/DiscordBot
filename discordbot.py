@@ -41,7 +41,7 @@ async def Covid(ctx,*,arg):
         await ctx.send("Here is the newest story regarding COVID-19 \n" + site)
     if arg == str("Total Cases"):
         await ctx.send("Please enter the name of the country you would like to see the Corona Virus statistics for following the original command.")
-    if arg==str("Total Cases Canada")
+    if arg==str("Total Cases Canada"):
         query = "Total Cases of COVID-19 in Canada"
         for j in search (query, tld = "co.in", num=1,stop=1, pause=1 ):
             site = j
