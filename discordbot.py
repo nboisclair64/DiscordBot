@@ -47,4 +47,4 @@ async def Covid(ctx,*,arg):
 
 
 
-client.run('IR_XyIs_YLFvVq_RkDQ5FM7GNsyskDdi')
+client.run('rf1IYStP4iMY2IsnewlhD_mbTtaPAxiA')
