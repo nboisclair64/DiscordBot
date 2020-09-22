@@ -35,8 +35,8 @@ async def Covid(ctx,*,arg):
     if arg == str("Prevention") :
         await ctx.send("To prevent COVID-19 do the following: \n 1.Wash Hands for 20 secounds \n 2.Wear a mask when in public \n 3. Maintain a social distance of 6ft")
     if arg == str("Breaking News"):
-        query = "Total Cases of COVID-19 in the world"
-        for j in search (query, tld = "co.in", num=1,stop=1, pause=2 ):
+        query = "breaking news covid"
+        for j in search (query, tld = "co.in", num=1,stop=1, pause=1 ):
             site = j
         await ctx.send("Here is the newest story regarding COVID-19 \n" + site)
     if arg == str("Total Cases"):
